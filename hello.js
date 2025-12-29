@@ -83,13 +83,54 @@
  I am a multiline comment.
  This is helpful for longer explanations.
 */
-let firstName = "Kamal";
-let lastName = "Hassan";
-let fullName = firstName + " "+  lastName
-console.log(fullName);
-// reassigning value
-firstName = "Kamala";
-lastName = "Karki";
-let fName = firstName + " " + lastName;
-console.log(fName);
+// let firstName = "Kamal";
+// let lastName = "Hassan";
+// let fullName = firstName + " "+  lastName
+// console.log(fullName);
+// // reassigning value
+// firstName = "Kamala";
+// lastName = "Karki";
+// let fName = firstName + " " + lastName;
+// console.log(fName);
 
+// const crypticKey1= Symbol("saltNpepper");
+// const crypticKey2= Symbol("saltNpepper");
+// console.log(crypticKey1 === crypticKey2); // false
+// console.log(crypticKey1 === crypticKey1); // true
+
+// Bracket Notation (To access charaters from a Strings)
+
+// let greeting = "Hello";
+// console.log(greeting[4]); // o
+
+// To get last character of a string (the length of the string minus one)
+
+// const fullName = "Kapil Rai";
+// console.log(fullName[fullName.length - 1]); // i
+
+// To get multiple charaters from string
+
+// let firstName = "Rahul";
+// let lastName = "Gandhi";
+// let fName = firstName + " " + lastName;
+// let result = fName[3] + fName[6]; // u and G
+// console.log(result);
+
+// creating new line in strings 
+// console.log("JavaScript is a programming language. \nIt can create newline in a string");
+// console.log("\n");
+
+// Insert quotes inside a string
+// let statement = "She said. \"Hello!\"";
+// console.log("This is a string with quote: ", statement);
+
+// statement = "She\'s my world!";
+// console.log(statement);
+
+// string interpolation
+let firstName = "Kamala";
+let lastName = "Harris";
+let userName = `Full Name: ${firstName} ${lastName}`;
+console.log(userName);
+
+let statement = "JavaScript was created in just 10 days!"
