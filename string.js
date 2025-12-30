@@ -74,3 +74,6 @@ btn.addEventListener("click", () => {
     const userName = prompt("What is your name?", "Guest");
     output.textContent = "Hello, " + userName + "!";
 }); */
+
+const lastCharacter = "Python";
+console.log(lastCharacter[lastCharacter.length -1]);
