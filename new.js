@@ -60,12 +60,58 @@
 
 //fromCharCode() method allows you to do the opposite
 
-let char = String.fromCharCode(65);
-console.log(char);  //  A
+// let char = String.fromCharCode(65);
+// console.log(char);  //  A
 
-char = String.fromCharCode(101);
-console.log(char); // e
+// char = String.fromCharCode(101);
+// console.log(char); // e
 
-char = String.fromCharCode(99);
-console.log(char); // c
+// char = String.fromCharCode(99);
+// console.log(char); // c
 
+// the includes() method returns true and false result:
+// string.includes(searchValue);
+
+// let phrase = "JavaScript is awesome!";
+// console.log(phrase.includes("is")); // true
+// console.log(phrase.includes("$")); // false
+
+// phrase = "I love JavaScript!";
+// console.log(phrase.includes("Javascript")); // Case-sensitive resule false
+
+// let text = "Hello, JavaScript world!";
+// let result = text.includes("JavaScript", 7);
+// console.log(result); // true
+// console.log(text.includes("Hello", 2));
+
+// let words = "Hello, My name is Kapil Rai!";
+// console.log(words.includes("My", 2)); //true
+// console.log(words.includes("name", 10)); // ture
+// console.log(words.includes("name", 11)); // false
+// console.log(words.includes("name", 8)); //ture
+
+// Extract a Substring from a string
+// the slice() method
+// string.slice(startIndex, endIndex);
+
+// let message = "Hello I am botNep!";
+// console.log(message.slice(0, 4)); // Hell
+// console.log(message.slice(0, 6)); // "Hello "
+// console.log(message.slice(10)); //" botNepal!"
+// console.log(message.slice(-2)); // p!
+
+// let sentence = "Learning JavaScript is fun!";
+// let extracted = sentence.slice(9, -5);
+
+// console.log(extracted); // "JavaScript is"
+
+// let message = "JavaScript is fun!";
+// let lastWord = message.slice(-6);
+
+// console.log(lastWord); // "s fun!"
+
+let sentence = "Learning JavaScript is fun!";
+
+let extracted = sentence.slice(9, -5);
+
+console.log(extracted); // "JavaScript is fun!"
