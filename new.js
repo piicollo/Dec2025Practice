@@ -110,8 +110,41 @@
 
 // console.log(lastWord); // "s fun!"
 
-let sentence = "Learning JavaScript is fun!";
+// let sentence = "Learning JavaScript is fun!";
 
-let extracted = sentence.slice(9, -5);
+// let extracted = sentence.slice(9, -5);
 
-console.log(extracted); // "JavaScript is fun!"
+// console.log(extracted); // "JavaScript is fun!"
+
+// const name = "Kapil Chharahang Rai";
+// console.log(name.slice(7,-1));
+
+// The toUpperCase() and toLowerCase()
+
+// let greeting = "Hello, World!";
+// let uppercaseGreeting = greeting.toUpperCase();
+// console.log(uppercaseGreeting); //HELLO, WORLD!
+
+// let sentence = "I LOVE JAVASCRIPT PROGRAMMING LANGUAGE.";
+// let lowercaseSentence = sentence.toLowerCase();
+// console.log(lowercaseSentence);
+
+// Trim Whitespace from a string: 
+// The trim(), trimStart(), and trimEnd method: 
+
+// let ram = "     Hello   ";
+// console.log(ram); //"     Hello   "
+// let trimmedRam = ram.trim();
+// console.log(trimmedRam); // "Hello"
+// Note: whitespace within the string (between words, for example) is untouched by trim()
+
+// let shyamSay = "    Hi!     ";
+// console.log(shyamSay); // "    Hi!     "
+
+// let trimStartShyam = shyamSay.trimStart();
+// console.log(trimStartShyam); // "Hi!     "
+
+let gitaSays = "    Harry       ";
+console.log(gitaSays); // "    Harry       "
+let trimEndGitaSays = gitaSays.trimEnd();
+console.log(trimEndGitaSays); // "    Harry"
