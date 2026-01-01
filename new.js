@@ -144,7 +144,69 @@
 // let trimStartShyam = shyamSay.trimStart();
 // console.log(trimStartShyam); // "Hi!     "
 
-let gitaSays = "    Harry       ";
-console.log(gitaSays); // "    Harry       "
-let trimEndGitaSays = gitaSays.trimEnd();
-console.log(trimEndGitaSays); // "    Harry"
+// let gitaSays = "    Harry       ";
+// console.log(gitaSays); // "    Harry       "
+// let trimEndGitaSays = gitaSays.trimEnd();
+// console.log(trimEndGitaSays); // "    Harry"
+
+// the replace() method:
+// It allows us to fine a specified value(like a word or character) in a string and replace it with another value.
+// Syntax: 
+// string.replace(serachValue, newValue);
+
+// let text = "I love JavaScript!";
+// console.log("Without replace method: ", text);
+// let newText = text.replace("JavaScript", "Python");
+// console.log(`With replace method: ${newText}`);
+
+// this method is case-sensitive:
+// let sentence = "I enjoy working with JavaScript!";
+// console.log(sentence);
+
+// let updateSentence = sentence.replace("javascript", "python");
+// console.log("Case-sensitive: ",updateSentence);
+
+// Multiple occurrence of searchValue is replaced once only:
+
+// let phrase = "Hello, world! Welcome to the world of coding.";
+// console.log(phrase);
+// let updatePhrase = phrase.replace("world", "universe");
+// console.log(updatePhrase);
+
+// the repeat() method"
+// It allows to repeat a string a specified number of times:
+// syntax:
+// string.repeat(count);
+
+// let word = "Hello!";
+// let repWord = word.repeat(3);
+// console.log(repWord); // Hello!Hello!Hello!
+
+// the count parameter must not be a non-negative number: 
+
+// word = "tease me! ";
+// let updateWord = word.repeat(-2); //RangeError: Invalid count value: -2
+
+// the count parameter must not be infinity:
+// word = "Heaven";
+// let updateWord2 = word.repeat(Infinity);
+// console.log(updateWord2); // RangeError: Invalid count value: Infinity
+
+// word = "Hell";
+// let updateWord3 = word.repeat(1.2);
+// console.log(updateWord3); // Hell
+// let updateWord4 = word.repeat(4.5);
+// console.log(`Repeated word: ${updateWord4} `); // HellHellHellHell
+
+// word = "gmail";
+// let updateWord5 = word.repeat(0);
+// console.log(updateWord5); // ""
+
+// the replaceAll() method: 
+let text2 = "I love cats and cats are so much fun!";
+let updateText = text2.replaceAll("cats", "dogs");
+console.log(updateText);
+text3 = "I love javascript and javascript is a programming language.";
+let updateText1 = text3.replaceAll("JavaScript");
+console.log(updateText1);
+
